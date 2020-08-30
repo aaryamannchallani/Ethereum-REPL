@@ -4,7 +4,7 @@
 - `yarn`
 - `node index.js`
 - If using Bash/zsh :
-  - `alias erepl="node <path-to-index.js>"` now use it from any directory!
+  - `echo 'alias erepl="node <path-to-index.js>"' >> ~/.bashrc` now use it from any directory!
 ---
 ## Features:
 - Top-Level await - no more callbacks 🎊
