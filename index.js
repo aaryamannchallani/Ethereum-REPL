@@ -4,7 +4,6 @@ const chalk = require("chalk");
 const ethers = require("ethers");
 const { utils: ethUtils } = require("ethers");
 const { table } = require("table");
-const solc = require("solc");
 const fs = require("fs");
 
 const functions = {
@@ -44,7 +43,7 @@ const functions = {
     );
   },
   compileSolidity(path) {
-
+	const solc = require('solc')
     const splitPath = path.split('/')
     const fileName = splitPath[splitPath.length-1].split('.')[0]
     const input = {
