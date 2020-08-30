@@ -5,16 +5,16 @@
 ---
 ## Features:
 - Top-Level await - no more callback hell 🎊
-- `getInfuraProvider()` : returns Infura Provider connected to INFURA_KEY in env
-- `getLocalProvider()` : returns provider connected to http://localhost:854 🎆
+- `getInfuraProvider()` : returns Infura Provider connected to INFURA_KEY in .env
+- `getLocalProvider()` : returns provider connected to http://localhost:8545 🎆
 - `getWebSocketProvider(<optional>)` : defaults to wss://localhost:8546// 🕸
 - `ethUtils` : Utility library derived from ethers.js 👷
 - `getBalance(address)` : Mainnet Balance of given address 💰
 - `availableUtils()` : returns available utilities from ethers.utils 🎡
+- `compileSolidity(path-to-contract)` : saves artifact including abi, bytecode, assembly and all the other good stuff in ./artifacts/
 - More Coming Soon...✨
 ---
 ## Roadmap:
 - Adding DeFi contracts for easy interaction
 - Easy interface to listen for contract events
-- Artifact Maker
 ---
