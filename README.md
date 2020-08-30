@@ -1,10 +1,13 @@
 # Custom REPL for Sandboxing on Ethereum
 ---
 ## Usage:
+- `yarn`
 - `node index.js`
+- If using Bash/zsh :
+  - `alias erepl="node <path-to-index.js>"` now use it from any directory!
 ---
 ## Features:
-- Top-Level await - no more callback hell 🎊
+- Top-Level await - no more callbacks 🎊
 - `getInfuraProvider()` : returns Infura Provider connected to INFURA_KEY in .env
 - `getLocalProvider()` : returns provider connected to http://localhost:8545 🎆
 - `getWebSocketProvider(<optional>)` : defaults to wss://localhost:8546// 🕸
