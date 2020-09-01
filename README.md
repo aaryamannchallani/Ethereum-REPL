@@ -7,7 +7,7 @@
   - `echo 'alias erepl="node <path-to-index.js>"' >> ~/.bashrc` now use it from any directory!
 ---
 ## Features:
-- Top-Level await - no more callbacks 🎊
+- No need of async/await - no more callbacks 🎊
 - `getInfuraProvider()` : returns Infura Provider connected to INFURA_KEY in .env
 - `getLocalProvider()` : returns provider connected to http://localhost:8545 🎆
 - `getWebSocketProvider(<optional>)` : defaults to wss://localhost:8546 🕸
