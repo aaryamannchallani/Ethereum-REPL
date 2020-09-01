@@ -10,7 +10,7 @@
 - Top-Level await - no more callbacks 🎊
 - `getInfuraProvider()` : returns Infura Provider connected to INFURA_KEY in .env
 - `getLocalProvider()` : returns provider connected to http://localhost:8545 🎆
-- `getWebSocketProvider(<optional>)` : defaults to wss://localhost:8546// 🕸
+- `getWebSocketProvider(<optional>)` : defaults to wss://localhost:8546 🕸
 - `ethUtils` : Utility library derived from ethers.js 👷
 - `getBalance(address)` : Mainnet Balance of given address 💰
 - `availableUtils()` : returns available utilities from ethers.utils 🎡
