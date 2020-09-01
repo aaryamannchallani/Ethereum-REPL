@@ -15,6 +15,8 @@
 - `getBalance(address)` : Mainnet Balance of given address 💰
 - `availableUtils()` : returns available utilities from ethers.utils 🎡
 - `compileSolidity(path-to-contract)` : saves artifact including abi, bytecode, assembly and all the other good stuff in ./artifacts/
+- `getReadContract(address)` : returns contract instance ready to go(read-only)
+- `getWriteContract(address,signer)`: returns contract instance with given signer
 - More Coming Soon...✨
 ---
 ## Roadmap:
